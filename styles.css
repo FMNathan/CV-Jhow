@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+}
+
+nav > a{
+    font-size: 1.3125rem;
+}
+
+.header__navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 220px 0;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 80px;
+    width: 1120px;
+    height: 35px;
+}
+
+.main__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.main__txt{
+    font-family: "DM Sans", sans-serif;
+    height: 164px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__txt > h1{
+    font-size: 3.75rem;
+    font-weight:  700;
+    font-style: normal;
+    text-align: left;
+}
+
+.main__subtxt{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__subtxt  > h2{
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.aside-main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.first__project{
+    width: 1120px;
+    height: 363px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first__project > h3{
+    font-size: 1.125rem;
+    font-family: "Inter", sans-serif
+}
+
+.first__project > p{
+    font-family: "Inter", sans-serif;
+}
+
+.first__project img{
+    width: 640px;
+    height: 360px;
+}
+
+.second__project{
+    width: 1120px;
+    height: 363px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second__project > h3{
+    font-size: 1.125rem;
+    font-family: "Inter", sans-serif;
+}
+
+.second__project > p{
+font-family: "Inter", sans-serif;
+}
+
+.second__project img{
+    width: 640px;
+    height: 360px;
+}
+
+.third__project{
+    width: 1120px;
+    height: 363px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third__project > h3{
+    font-size: 1.125rem;
+    font-family: "Inter", sans-serif;
+}
+
+.third__project > p{
+    font-family: "Inter", sans-serif;
+}
+
+.third__project  img{
+    width: 640px;
+    height: 360px;
+}
+
+.project__info{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+}
+
+.link__projects > a{
+    font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+}
