@@ -242,13 +242,13 @@ nav > a{
 }
 
 .main__softwares {
-    width: 896px;
-    height: 216px;
+    width: 1110px;
+    height: 230px;
     font-family: "Inter", sans-serif;
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 }
 
@@ -258,6 +258,14 @@ nav > a{
 
 .paragraph__softwares{
     display: flex;
+}
+
+.softwares__and__skills{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
 }
 
 .contact__section{
@@ -278,8 +286,4 @@ nav > a{
 .contact__section > p {
     font-size: 32px;
     font-family: "DM Sans", sans-serif;
-}
-
-.seperator{
-    
 }
