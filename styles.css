@@ -18,10 +18,6 @@ a{
     font-family: "DM Sans", sans-serif;
 }
 
-nav > a{
-    font-size: 1.3125rem;
-}
-
 .header__navigation{
     display: flex;
     align-items: center;
@@ -29,13 +25,21 @@ nav > a{
     padding: 20px 0 220px 0;
 }
 
-.navigation{
+.navigation__pattern{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 80px;
     width: 1120px;
     height: 35px;
+}
+
+ol, ul, li{
+    list-style: none;
+  }
+
+.navigation__sons{
+    font-size: 1.3125rem;
 }
 
 .main__content{
