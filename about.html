@@ -4,32 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>About me</title>
+    <title>Sobre mim</title>
 </head>
 <body>
+
+    <!--Navegação do site-->
     <header class="header__navigation">
 
         <nav class="navigation">
             <ul class="navigation__pattern">
-            <li class="navigation__sons"><a href="index.html">Home</a></li>
-            <li class="navigation__sons"><a href="about.html">About</a></li>
+            <li class="navigation__sons"><a href="index.html">Inicio</a></li>
+            <li class="navigation__sons"><a href="about.html">Sobre</a></li>
             <li class="navigation__sons"><a href="#softwares__and__skills">Skills</a></li>
-            <li class="navigation__sons"><a href="#social__medias">Contact</a></li>
+            <li class="navigation__sons"><a href="#social__medias">Contato</a></li>
         </ul>
         </nav>
 
    </header>
 
+   <!--Sorbe mim-->
     <div class="main__content__about">
         <h2>Olá, eu sou Jhonatan dos Santos Rodrigues, estudante de Back-End.</h2>
-        <p class="paragraph__about">My work is mainly focused on third-dimension modeling, texturing and rendering. I like exploring the creatures 
-        with a touch of dark surrealism for characters and production.<br>
-         Now I'm an interactive media design student in Istanbul ⏤ currently freelancing and seeking internship opportunities.</p>
-
-        <div class="main__imagem__about">
-            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="#" >
+        <p class="paragraph__about">Olá, meu nome é Jhonatan e tenho 25 anos. Moro em Guarujá - SP e atualmente trabalho como professor de inglês.
+            Mas estou em transição para a área de desenvolvimento de software e com foco maior no Back-End na linguagem Java. <br>
+            Sou torcedor do santos, casado, nas horas vagas gosto de me divertir jogando vídeo game e sou um completo viciado em café.</p>
         </div>
-    </div>
+
+         <!--Imagem de perfil-->
+         <div class="main__imagem__about">
+            <img src="assets/profile-picture.jgp.jpg" alt="#" >
+        </div>
 
     <section class="softwares__and__skills" id="softwares__and__skills">
     <div class="main__softwares">   
@@ -42,17 +46,30 @@
     </div>
 
     <img src="assets/seperator.svg" alt="" class="seperator">
-
-    <div class="contact__section"> 
-        <h4>I am thrilled to answer to your next project </h4>
-        <p>@outlook.com</p>
-    </div>
 </section>
+
+<div class="contact__section"> 
+    <form action="#">
+        <label for="f-name">Nome</label>
+        <input type="text" name="firstname" id="fname" placeholder="Seu nome...">
+
+        <label for="l-name">Sobrenome   </label>
+        <input type="text" name="lastname" id="lname" placeholder="Seu sobrenome... ">
+
+        <label for="subject">Fale comigo</label>
+        <textarea name="subject" id="subject" placeholder="Escreva algo..." style="height: 500px; width: 910px; font-size: 18px; 
+        color: black;" ></textarea>
+
+        <input type="submit" value="Enviar"> 
+
+    </form>
+</div>
+    
     <footer>
         <div class="social__medias" id="social__medias">
-            <a href="#" target="_blank">Instagram</a>
-            <a href="#" target="_blank">Linkedin</a>
-            <a href="#" target="_blank">Github</a>
+            <a href="https://www.instagram.com/jhonatann.rodriguess/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/jhonatan-rodrigues-dev/" target="_blank">Linkedin</a>
+            <a href="https://github.com/Jhonatan-Rodrigues" target="_blank">Github</a>
         </div>
    </footer>
 </body>
